@@ -82,7 +82,10 @@ body {
 }
 
 .org-name{
-    font-weight: bolder;
+    color: #646060;
+    font-family: fantasy;
+    font-variant-caps: small-caps;
+    font-size: xxx-large;
 }
 
 .title {
