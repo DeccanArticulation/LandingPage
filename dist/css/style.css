@@ -1,0 +1,633 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400|Roboto:300,400");
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+.mt-3 {
+    margin-top: 30px;
+}
+.mt-10 {
+    margin-top: 100px !important;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.fa {
+    color: #9393a4;
+    padding: 0 0px 0 0;
+}
+
+.fa:hover {
+    color: #333;
+}
+
+.whatsapp-icon {
+    width: 40px;
+    height: auto;
+    padding: 5px 0 0 0;
+}
+
+.wa-small {
+    text-align: center;
+    padding: 0 0 0 15px;
+}
+
+body {
+    font-size: 18px;
+    font-family: "Oxygen", sans-serif;
+    line-height: 1.8;
+    color: #4d4d4d;
+    background-color: rgb(166, 237, 248);
+}
+
+#aboutus p,
+.moto p,
+.about-us p {
+    font-size: 19px;
+    padding: 0 40px;
+}
+
+#aboutus button {
+    padding: 10px 40px;
+    background-color: #0d3da9;
+    border: 1px solid #fff;
+    margin-top: 30px;
+}
+
+#aboutus button:hover {
+    background-color: #0a2666;
+    color: #fff;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.certificationHome {
+    padding-bottom: 0px;
+}
+
+.moto {
+    background-repeat: no-repeat;
+}
+
+.gallcarousel {
+    background-image: url("../img/trydon-truckline-system-bg.jpg");
+    background-repeat: no-repeat;
+}
+
+.org-name{
+    font-weight: bolder;
+}
+
+.title {
+    color: #0d3da9;
+    font-family: "Roboto", sans-serif;
+    /* text-transform:uppercase; */
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.con-title {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #333;
+    padding: 55px 50px !important;
+    line-height: 38px !important;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    background-color: #fff !important;
+    /*filter: drop-shadow(0px -1px 10px #666);*/
+    z-index: 10;
+    height: 88px;
+}
+.navbar-nav {
+    margin: 0 auto;
+    margin-right: 0px !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #333;
+}
+
+.navbar-nav li a:hover {
+    color: #000;
+    transition: color 200ms linear;
+    border-bottom: 4px solid #249c4d;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-light .navbar-toggler {
+    border: 0;
+}
+
+.navbar-nav .active {
+    border-bottom: 4px solid #249c4d;
+    color: #249c4d !important;
+}
+
+.fixed-top {
+    position: fixed !important;
+    z-index: 100 !important;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: rgba(255, 201, 14, 0.9) !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top {
+    transition: background-color 200ms linear;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.social {
+    width: 100%;
+    display: inline !important;
+}
+
+.social i {
+    display: inline !important;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 15px;
+}
+
+span.welcome {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 30px;
+    font-family: "Courgette", cursive;
+}
+
+span.welcome::before {
+    right: 100%;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+span.welcome::after {
+    left: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+span.welcome::before,
+span.welcome::after {
+    content: "";
+    position: absolute;
+    height: 15px;
+    border-bottom: 2px solid #999;
+    top: 0;
+    width: 50px;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/** Side Nav **/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #333;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+footer {
+    background-image: url("../img/trydon-truckline-system-f3.jpg");
+    background-color: rgba(26, 26, 25, 0) !important;
+    background-repeat: repeat-x;
+    padding: 25px 0;
+    height: 700px;
+    background-size: 100% auto;
+    background-position: bottom;
+    border-top: 1px solid #bbb;
+    /*background: url('../img/trydon-truckline-system-f.jpg') bottom left no-repeat fixed;*/
+}
+
+.footerbg4 {
+    background-image: url("../img/trydon-truckline-system-f4.jpg");
+}
+
+.footerliks a {
+    color: #585858;
+    text-decoration: none;
+}
+.footerliks a:hover {
+    color: #000;
+}
+
+.footerliks {
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 50px 5px 5px 5px;
+    font-family: "Roboto", sans-serif;
+    color: #585858;
+}
+
+.footerliks ul {
+    padding: 14px;
+}
+
+.footerliks p {
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.footerliks h3 {
+    font-family: "Roboto", sans-serif;
+    color: #0d3da9;
+}
+
+.footerliks b {
+    color: #fff;
+}
+
+.copyrights p,
+.copyrights a {
+    text-align: left;
+    font-size: 12px !important;
+    font-family: sans-serif;
+    padding: 10px 0 100px 0;
+    color: #323232;
+}
+
+.paddingcc {
+    padding: 0;
+}
+
+.form-control {
+    background-color: #ebebeb;
+    border: 1px solid #868686;
+}
+
+.slide {
+    margin-top: 40px;
+}
+
+.populardish {
+    padding: 20px;
+}
+
+.titlesm {
+    display: none;
+}
+
+.titlelg {
+    display: block;
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    filter: drop-shadow(10px 10px 4px #333);
+}
+
+.iconsty1 {
+    padding: 5px 10px;
+    background-color: #038dcb;
+    border-radius: 0;
+}
+
+.contact-title {
+    color: #4b5 !important;
+    margin-bottom: 50px !important;
+}
+
+.bg-colortest {
+    padding: 0px 0 100px 0;
+    background-color: #e8eff4 !important;
+}
+
+.homewhyus ul li {
+    color: #4d4d4d;
+}
+
+/**  Product page **/
+.product1 {
+    background-image: url("../img/product-header.jpg");
+    background-repeat: no-repeat;
+}
+
+.productimg {
+}
+
+.features {
+    background-color: #063875;
+    color: #fff;
+}
+
+.specahref .fa {
+    text-decoration: underline !important;
+}
+
+.specahref .fa:hover {
+    text-decoration: underline !important;
+    color: yellow !important;
+}
+
+.specification {
+    background-color: #111f28;
+    color: #fff;
+}
+
+/**  .Product page **/
+
+/**  about us page **/
+.about-us {
+    background-color: #f0efec;
+    color: #4d4d4d;
+}
+
+.reputation {
+    background-color: #249c4d;
+    color: #fff;
+}
+
+.reputation .fa,
+.features .fa,
+.specification .fa {
+    color: #fff !important;
+}
+
+.para-bg2 {
+    background-image: url("../img/product-header1.jpg");
+    background-repeat: no-repeat;
+}
+
+/**  .about us page **/
+
+/**  Quality **/
+.whyus i {
+    color: #fff !important;
+    font-size: 22px;
+}
+
+.whyus .fa {
+    padding: 10px 0;
+}
+
+.whyus .fa-star::before {
+    color: yellow;
+}
+
+.whyus ul {
+    list-style-image: url("../img/star.png");
+    color: #fff;
+}
+.whyus ul li {
+    line-height: 35px;
+    font-size: 17px;
+}
+
+.para-bg3 {
+    background-image: url("../img/product/bulker8.jpg");
+    background-repeat: no-repeat;
+}
+
+/**  .Quality **/
+
+/**  Contact **/
+.tel {
+    text-decoration: none !important;
+    color: #4d4d4d;
+}
+
+.tel i {
+    text-decoration: none;
+    font-size: 25px;
+    color: #0d3da9;
+}
+
+.cont-address {
+    padding: 0 0 0 50px;
+}
+
+/**  .Contact **/
+
+.logosm {
+    text-align: center;
+}
+
+.logo {
+    display: none;
+}
+
+.logobigsc {
+    display: block;
+    margin-top: -5px;
+}
+
+/*
+* Menu dropdown
+*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #12445a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10000;
+    font-size: 14px;
+    line-height: 20px;
+    left: -77px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    color: #fff !important;
+    width: 274px;
+    border-top: 3px solid #249c4d;
+    padding: 15px;
+}
+
+.dropdown-content a {
+    color: #c2c2c2 !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    webkit-transition: all 0.3s ease-in-out;
+    border-bottom: 1px dashed #454545;
+}
+
+.dropdown-content a:hover {
+    color: #fff !important;
+    transition: all 0.9s ease-in-out;
+    webkit-transition: all 0.9s ease-in-out;
+    border-bottom: 1px dashed #fff !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block !important;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.submenucs {
+    padding-left: 25px;
+}
+
+/*
+*
+*  Media Query
+*
+*/
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: block;
+        margin-top: -12px;
+        width: 180px;
+    }
+    .logobigsc {
+        display: none;
+    }
+
+    footer {
+        height: auto;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .parallax1 {
+        height: 100vh !important;
+    }
+    .bubbles h1 {
+        font-size: 17px;
+    }
+    .fig_container h3 {
+        font-size: 18px;
+    }
+    .con-title .title {
+        font-size: 2.2em;
+    }
+    #whyus-bg img {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .titlesm {
+        display: block;
+        padding: 40px 30px 0px 30px;
+        font-family: "Lobster", cursive;
+        font-size: 31px;
+    }
+    .titlelg {
+        display: none;
+    }
+    .bg-overlay {
+        padding: 40px 30px !important;
+    }
+    .contact-title {
+        font-size: 1.8em !important;
+        margin-top: 50px !important;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .addbg2 {
+        background-position-y: 0px !important;
+    }
+
+    .paddingcc {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .top-menu {
+        display: none;
+    }
+
+    .m-top {
+        top: 0px !important;
+    }
+
+    .cont-address {
+        padding: 0 0 0 20px;
+    }
+}
